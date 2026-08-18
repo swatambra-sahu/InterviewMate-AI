@@ -13,24 +13,62 @@ Practice realistic, role-specific interviews generated from your own resume, ans
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-8A2BE2?style=for-the-badge)](https://openrouter.ai/)
 
-**🔗 [Live Demo](https://interviewmate-ai-3un7.onrender.com/)** &nbsp;·&nbsp; **🎬 [Watch Video Demo](https://your-youtube-demo-link.com)** &nbsp;·&nbsp; [Report Bug](../../issues) &nbsp;·&nbsp; [Request Feature](../../issues)
+**🔗 [Live Demo](https://interviewmate-ai-3un7.onrender.com/)** &nbsp;·&nbsp; **🎬 [Watch Video Demo](https://your-youtube-demo-link.com)**
 
 </div>
 
 ---
 
-## 📸 Features & Gallery
+## 🖥️ Product Experience
+
+### 🏠 Home Page
+
+<div align="center">
+
+<img src="./assets/Home-Page.png" alt="InterviewMate.AI Home Page" width="100%">
+
+<p><strong>Modern, responsive landing experience</strong> — clearly communicates the platform's AI-powered interview workflow, key capabilities, and value proposition for candidates.</p>
+
+</div>
+
+---
+
+### 🤖 AI Capabilities
+
+<div align="center">
+
+<img src="./assets/AI-Capabilities.png" alt="InterviewMate.AI AI Capabilities" width="100%">
+
+<p><strong>AI-powered interview intelligence</strong> — resume-driven question generation, adaptive evaluation, and structured feedback across Confidence, Communication, and Correctness.</p>
+
+</div>
+
+---
+
+### 🎯 Multiple Interview Modes
+
+<div align="center">
+
+<img src="./assets/Multiple-Interview-Modes.png" alt="InterviewMate.AI Multiple Interview Modes" width="100%">
+
+<p><strong>Flexible interview practice</strong> — multiple interview modes designed to simulate different real-world preparation scenarios and candidate needs.</p>
+
+</div>
+
+---
+
+## 📸 Platform Features & Gallery
 
 <div align="center">
 
 | | |
 |:---:|:---:|
-| ![Resume Parsing](https://via.placeholder.com/450x280/1e293b/10b981?text=Resume+Parsing) | ![AI Mock Interview](https://via.placeholder.com/450x280/1e293b/10b981?text=AI+Mock+Interview) |
+| ![Resume Parsing](./assets/resume-parsing.png) | ![AI Mock Interview](./assets/mock-interview.png) |
 | **📄 Resume Parsing** — Upload a PDF and let AI auto-extract role, skills, experience & projects | **🎙️ AI Mock Interview** — Voice-driven Q&A with a realistic, adaptive AI interviewer |
-| ![Performance Analytics](https://via.placeholder.com/450x280/1e293b/10b981?text=Performance+Analytics) | ![3D Scoring Report](https://via.placeholder.com/450x280/1e293b/10b981?text=3D+Scoring+Report) |
+| ![Performance Analytics](./assets/performance-analytics.png) | ![3D Scoring Report](./assets/scoring-report.png) |
 | **📊 Performance Analytics** — Interview history with score trends over time | **🧠 3D Scoring Report** — Confidence, Communication & Correctness breakdown per question |
-| ![Pricing & Payments](https://via.placeholder.com/450x280/1e293b/10b981?text=Pricing+%26+Payments) | ![Interview History](https://via.placeholder.com/450x280/1e293b/10b981?text=Interview+History) |
-| **💳 Pricing & Payments** — Razorpay-powered credit plans for continued practice | **📈 Interview History** — Reviewable dashboard of every past session and score |
+| ![Pricing & Payments](./assets/pricing.png) | ![Razorpay Integration](./assets/razorpay.png) |
+| **💳 Pricing & Payments** — Razorpay-powered credit plans for continued practice | **💳 Razorpay Integration** — Secure payment flow for purchasing interview credits |
 
 </div>
 
@@ -203,35 +241,41 @@ npm run dev  # Starts client on port 5173
 
 ```
 InterviewMate-AI/
+├── assets/                       # Project screenshots used in README
+│   ├── Home-Page.png
+│   ├── AI-Capabilities.png
+│   ├── Multiple-Interview-Modes.png
+│   ├── interview-history.png
+│   ├── mock-interview.png
+│   ├── performance-analytics.png
+│   ├── pricing.png
+│   ├── razorpay.png
+│   ├── resume-parsin.png
+│   └── scoring-report.png
+│
 ├── client/                       # React Frontend (Vite)
 │   ├── src/
 │   │   ├── components/           # Reusable UI components
-│   │   │   ├── Step1SetUp.jsx        # Interview configuration & resume upload
-│   │   │   ├── Step2Interview.jsx    # Live voice/text interview interface
-│   │   │   ├── Step3Report.jsx       # 3D score report (Confidence/Communication/Correctness)
-│   │   │   ├── Timer.jsx             # Per-question countdown timer
-│   │   │   ├── AuthModel.jsx         # Google Sign-In modal
+│   │   │   ├── Step1SetUp.jsx
+│   │   │   ├── Step2Interview.jsx
+│   │   │   ├── Step3Report.jsx
+│   │   │   ├── Timer.jsx
+│   │   │   ├── AuthModel.jsx
 │   │   │   └── Navbar.jsx / Footer.jsx
-│   │   ├── pages/                 # Route-level pages
+│   │   ├── pages/
 │   │   │   ├── Home.jsx, InterviewPage.jsx
 │   │   │   ├── InterviewHistory.jsx, InterviewReport.jsx
 │   │   │   ├── Pricing.jsx, Auth.jsx
-│   │   ├── redux/                 # Redux Toolkit store & slices
-│   │   └── utils/firebase.js      # Firebase auth config
+│   │   ├── redux/
+│   │   └── utils/firebase.js
 │   └── vite.config.js
 │
 └── server/                       # Node.js + Express 5 Backend
     ├── controllers/
-    │   ├── auth.controller.js       # Google auth + JWT cookie sessions
-    │   ├── interview.controller.js  # Resume parsing, question gen, scoring
-    │   ├── payment.controller.js    # Razorpay order creation & verification
-    │   └── user.controller.js
-    ├── models/                    # Mongoose schemas (User, Interview, Payment)
-    ├── middlewares/                # isAuth (JWT), multer (file upload)
+    ├── models/
+    ├── middlewares/
     ├── services/
-    │   ├── openRouter.service.js    # Central OpenRouter chat-completion client
-    │   └── razorpay.service.js
-    └── routes/                    # /api/auth, /api/user, /api/interview, /api/payment
+    └── routes/
 ```
 
 ---
@@ -298,4 +342,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ Star this repo if it helped you prepare for interviews!
 
 </div>
-
