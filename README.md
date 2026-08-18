@@ -17,8 +17,6 @@ Practice realistic, role-specific interviews generated from your own resume, ans
 
 </div>
 
----
-
 ## 🖥️ Product Experience
 
 ### 🏠 Home Page
