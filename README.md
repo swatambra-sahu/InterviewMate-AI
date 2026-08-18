@@ -28,7 +28,6 @@ Practice realistic, role-specific interviews generated from your own resume, ans
 <p><strong>Modern, responsive landing experience</strong> — clearly communicates the platform's AI-powered interview workflow, key capabilities, and value proposition for candidates.</p>
 
 </div>
----
 
 ## 📸 Platform Features & Gallery
 
