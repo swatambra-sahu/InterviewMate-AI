@@ -30,31 +30,6 @@ Practice realistic, role-specific interviews generated from your own resume, ans
 <p><strong>Modern, responsive landing experience</strong> — clearly communicates the platform's AI-powered interview workflow, key capabilities, and value proposition for candidates.</p>
 
 </div>
-
----
-
-### 🤖 AI Capabilities
-
-<div align="center">
-
-<img src="./assets/AI-Capabilities.png" alt="InterviewMate.AI AI Capabilities" width="100%">
-
-<p><strong>AI-powered interview intelligence</strong> — resume-driven question generation, adaptive evaluation, and structured feedback across Confidence, Communication, and Correctness.</p>
-
-</div>
-
----
-
-### 🎯 Multiple Interview Modes
-
-<div align="center">
-
-<img src="./assets/Multiple-Interview-Modes.png" alt="InterviewMate.AI Multiple Interview Modes" width="100%">
-
-<p><strong>Flexible interview practice</strong> — multiple interview modes designed to simulate different real-world preparation scenarios and candidate needs.</p>
-
-</div>
-
 ---
 
 ## 📸 Platform Features & Gallery
