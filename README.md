@@ -13,7 +13,7 @@ Practice realistic, role-specific interviews generated from your own resume, ans
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![OpenRouter](https://img.shields.io/badge/LLM-OpenRouter-8A2BE2?style=for-the-badge)](https://openrouter.ai/)
 
-**🔗 [Live Demo](https://interviewmate-ai-3un7.onrender.com/)** &nbsp;·&nbsp; **🎬 [Watch Video Demo](https://your-youtube-demo-link.com)**
+**🔗 [Live Demo](https://interviewmate-ai-3un7.onrender.com/)** &nbsp;·&nbsp; **🎬 [Watch Video Demo](https://drive.google.com/file/d/1AjnQH_NJw0B_lkZlq_TEa6bZJFscBCsy/view?usp=sharing)**
 
 </div>
 
