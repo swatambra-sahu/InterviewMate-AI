@@ -301,6 +301,12 @@ sequenceDiagram
 
 ---
 
+## 📂 Project Resources
+📁 **Google Drive ( Report, Demo):**  
+[https://drive.google.com/drive/folders/1GavUNdT73G5vhR4JwnEKuwYpylDgjHLL](https://drive.google.com/drive/folders/1GavUNdT73G5vhR4JwnEKuwYpylDgjHLL)
+
+---
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
